@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="g" cx="35%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#7cc4ff"/>
+      <stop offset="60%" stop-color="#1f6fc2"/>
+      <stop offset="100%" stop-color="#0b2a55"/>
+    </radialGradient>
+    <clipPath id="c"><circle cx="100" cy="100" r="90"/></clipPath>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#g)"/>
+  <g clip-path="url(#c)">
+    <path fill="#3f9b52" d="M40 60 Q60 35 90 45 Q105 60 90 80 Q70 85 75 105 Q60 120 45 100 Q30 80 40 60Z"/>
+    <path fill="#3f9b52" d="M115 95 Q140 80 160 100 Q170 125 150 145 Q130 160 120 140 Q105 120 115 95Z"/>
+    <path fill="#4fae5f" d="M120 35 Q140 30 150 45 Q140 55 125 50Z"/>
+    <g fill="#ffffff" opacity="0.7">
+      <path d="M20 125 Q60 115 100 128 Q70 135 25 132Z"/>
+      <path d="M95 30 Q130 20 170 40 Q130 38 100 40Z"/>
+    </g>
+  </g>
+</svg>

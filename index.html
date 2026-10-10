@@ -1,75 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>Your Title Here</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Rocky Four - Inner Planet Fact Sheet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <h1>Planetary Fact Sheet</h1>
-  <table id="planets">
-    <tr>
-      <th></th>
-      <th>Planet 1</th>
-      <th>Planet 2</th>
-      <th>Planet 3</th>
-      <th>Planet 4</th>
-    </tr>
-    <tr>
-      <td>Images of ??</td>
-      <td><img src="images/planet_1.png" alt="?"></td>
-      <td><img src="images/planet_2.png" alt="?"></td>
-      <td><img src="images/planet_3.png" alt="?"></td>
-      <td><img src="images/planet_4.png" alt="?"></td>
-    </tr>
-    <tr>
-      <td>Fact #1</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #2</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #3</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #4</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #5</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #6</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #7</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-  </table>
+  <header id="page-header">
+    <p class="eyebrow">ITMD 361 &middot; Lab 7 &middot; Planetary Fact Sheet</p>
+    <h1>The Rocky Four</h1>
+    <p class="intro">Mercury, Venus, Earth and Mars are the four <em>terrestrial</em> planets: small, dense worlds of rock and metal that orbit closest to the Sun. Here is how they compare, side by side.</p>
+  </header>
+
+  <main id="content">
+    <table id="planets">
+      <caption>Seven key facts about the inner planets, ordered by distance from the Sun</caption>
+      <thead>
+        <tr>
+          <th scope="col" class="corner">Fact</th>
+          <th scope="col" class="planet mercury">Mercury</th>
+          <th scope="col" class="planet venus">Venus</th>
+          <th scope="col" class="planet earth">Earth</th>
+          <th scope="col" class="planet mars">Mars</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="image-row">
+          <th scope="row">Appearance</th>
+          <td><img src="images/mercury.svg" alt="Illustration of Mercury, a grey cratered planet"></td>
+          <td><img src="images/venus.svg" alt="Illustration of Venus, a pale yellow planet wrapped in swirling clouds"></td>
+          <td><img src="images/earth.svg" alt="Illustration of Earth, a blue planet with green continents and white clouds"></td>
+          <td><img src="images/mars.svg" alt="Illustration of Mars, a rusty red planet with a white polar ice cap"></td>
+        </tr>
+        <tr>
+          <th scope="row">Diameter <span class="unit">km</span></th>
+          <td>4,879</td>
+          <td>12,104</td>
+          <td>12,756</td>
+          <td>6,792</td>
+        </tr>
+        <tr>
+          <th scope="row">Mass <span class="unit">10<sup>24</sup> kg</span></th>
+          <td>0.330</td>
+          <td>4.87</td>
+          <td>5.97</td>
+          <td>0.642</td>
+        </tr>
+        <tr>
+          <th scope="row">Surface Gravity <span class="unit">m/s<sup>2</sup></span></th>
+          <td>3.7</td>
+          <td>8.9</td>
+          <td>9.8</td>
+          <td>3.7</td>
+        </tr>
+        <tr>
+          <th scope="row">Distance from Sun <span class="unit">10<sup>6</sup> km</span></th>
+          <td>57.9</td>
+          <td>108.2</td>
+          <td>149.6</td>
+          <td>228.0</td>
+        </tr>
+        <tr>
+          <th scope="row">Orbital Period <span class="unit">days</span></th>
+          <td>88.0</td>
+          <td>224.7</td>
+          <td>365.2</td>
+          <td>687.0</td>
+        </tr>
+        <tr>
+          <th scope="row">Length of Day <span class="unit">hours</span></th>
+          <td>4,222.6</td>
+          <td>2,802.0</td>
+          <td>24.0</td>
+          <td>24.7</td>
+        </tr>
+        <tr>
+          <th scope="row">Mean Temperature <span class="unit">&deg;C</span></th>
+          <td class="hot">167</td>
+          <td class="hot">464</td>
+          <td>15</td>
+          <td class="cold">-65</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <section id="notes">
+      <h2>Worth Noticing</h2>
+      <ul>
+        <li><strong>Venus is the hottest planet</strong>, not Mercury. Its thick carbon dioxide atmosphere traps heat, pushing the average surface temperature to 464&nbsp;&deg;C.</li>
+        <li><strong>A day on Mercury lasts longer than its year.</strong> One full day-night cycle takes about 176 Earth days, twice its 88-day orbit.</li>
+        <li><strong>Earth and Venus are near twins in size</strong>, only about 650&nbsp;km apart in diameter, yet they could not be more different on the surface.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer id="page-footer">
+    <p>Data source: <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/">NASA Planetary Fact Sheet</a>. Planet illustrations drawn for this page. Page by Braden Lamont.</p>
+  </footer>
 </body>
+
+</html>
